@@ -10,7 +10,7 @@ This project presents a comparative analysis of data mining models for predictin
 
 ### Result
 
-the prediction curve (orange) and the real curve(blue)
+the prediction curve (orange) and the real curve (blue)
 
 ![0016](img/0016.png)
 ![0017](img/0017.png)
