@@ -3,3 +3,14 @@
 ## Overview
 
 This project presents a comparative analysis of data mining models for predicting the stock prices of Sun Hung Kai Properties (0016.HK) and New World Development (0017.HK). The analysis began by evaluating five baseline models (kNN, SVM, Random Forest, Linear Regression, and Neural Network) using Orange Data Mining, which revealed that the simpler Linear Regression model was the most suitable for these datasets. Recognizing the limitations of treating time as just another feature, a Temporal Convolutional Network (TCN) was then implemented in Python. This model, specifically designed for sequential data, proved far more effective, achieving a Mean Absolute Error (MAE) approximately 30 times smaller than the Orange-based models. The project's key findings highlight the critical importance of feature selection and demonstrate that there is "no priority between models," as a model's suitability for a specific application is more important than its perceived complexity. Full details can be found in the PDF file.
+
+### Pipeline
+
+![ODM](img/Orange.png)
+
+### Result
+
+the prediction curve (orange) and the real curve(blue)
+
+![0016](img/0016.png)
+![0017](img/0017.png)
